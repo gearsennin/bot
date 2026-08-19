@@ -6,4 +6,5 @@ services:
       - /opt/docker/wos/db/:/app/db
     restart: unless-stopped
     environment:
-      - DISCORD_BOT_TOKEN=<your bot token here>
+      - DISCORD_BOT_TOKEN=MTUzOTQzNDUwMDIzOTY1OTA4OQ.GyCMDw.YWAdAWYfP-1mVoyE_CwEjS9XcI3aWqnFvDJZ4U
+docker compose up
